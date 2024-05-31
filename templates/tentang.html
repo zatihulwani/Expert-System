@@ -1,0 +1,90 @@
+{% include 'header.html' %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <div class="content-header">
+        <div class="container-fluid">
+            <section class="content">
+                <div class="row">
+                    <div class="col-12" id="accordion">
+                        <div class="card card-primary card-outline">
+                            <a class="d-block w-100" data-toggle="collapse" href="#collapseOne">
+                                <div class="card-header">
+                                    <h4 class="card-title w-100">
+                                        Tentang Aplikasi
+                                    </h4>
+                                </div>
+                            </a>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    NutriDiag Expert adalah aplikasi berbasis website yang mendukung proses diagnosis penyakit malnutrisi pada pasien. Terdapat 3 penyakit dan 17 gejala secara <i>default</i> yang menjadi acuan bagi dokter untuk menentukan diagnosis
+                                    penyakit. Aplikasi ini dibangun untuk
+                                    <b>membantu dokter gizi dalam mendiagnosis penyakit secara cepat dan tepat.</b>
+                                    <br><br> Untuk memenuhi tujuan tersebut, aplikasi ini mengacu pada 3 penerapan:
+                                    <ul>
+                                        <li>
+                                            Menerapkan konsep sistem pakar (sistem pakar dirancang agar dapat memberikan solusi dari suatu permasalahan dengan meniru kerja dan pemikiran dari para ahli).
+                                        </li>
+                                        <li>
+                                            Menerapkan metode <i><a style="color: black;"
+                        href="https://www.sciencedirect.com/topics/computer-science/certainty-factor">Certainty
+                        Factor</a></i> dalam mendiagnosis penyakit.
+                                        </li>
+                                        <li>
+                                            Menerapkan gabungan metode <i><a style="color: black;"
+                        href="https://www.sciencedirect.com/topics/computer-science/certainty-factor">Certainty
+                        Factor</a></i> dan <i><a style="color: black;"
+                        href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">Modified K Nearest Neighbor</a></i> dalam mendiagnosis penyakit.
+                                        </li>
+                                    </ul>
+                                    <br> Di dalam aplikasi ini terdapat menu dan fitur yang dapat digunakan, diantaranya adalah:
+                                    <ul>
+                                        <li>
+                                            <a style="color: black;" href="/diagnosispenyakit"> <b>Diagnosis Penyakit</b> (Untuk melakukan diagnosis penyakit gigi)</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: black;" href="/infopenyakit"> <b> Lihat Penyakit</b> (Untuk melihat detail informasi penyakit)</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: black;" href="/infogejala"> <b>Lihat Gejala</b> (Untuk melihat detail informasi gejala)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color: black;" href="/basispengetahuan"> <b>Basis Pengetahuan</b> (Halaman untuk melihat relasi setiap penyakut terhadap setiap gejala, basis pengetahuan atau <i>knowledge base</i> adalah Komponen utama pada penerapan Sistem Pakar)</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: black;" href="/riwayatpasien"> <b> Riwayat Pasien</b> (Untuk melihat rekam medis pasien yang disimpan)</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: black;" href="/tentang"> <b>Tentang</b> (Untuk melihat detail informasi gejala)</a>
+                                        </li>
+                                    </ul>
+                                    Namun beberapa fitur mewajibkan anda terdaftar sebagai user. Jika anda tidak dapat login, silahkan hubungi<a href="https://api.whatsapp.com/send?phone=+6282277463154&text=Tolong%20tambahkan%20saya%20sebagai%20user.">
+                    admin</a> untuk menambahkan akun anda.
+                                </div>
+                            </div>
+                        </div>
+                
+
+                                        <!-- </div> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+{% include 'footer.html' %}
